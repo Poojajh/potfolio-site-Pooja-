@@ -3,7 +3,18 @@ Colors used:
 Primary Color (yellow): hsl(49, 81%, 77%);
 Secondary Color (light blue): hsl(201, 51%, 60%);
 */
-head {background-color: hsl(201, 51%, 60%)}
+header
+{background-color: hsl(201, 51%, 60%)
+padding: 10px;
+margin: 10px;
+text-align: center;
+border-bottom: 3px solid hsl(209, 87%, 18%);}
+selector {
+  margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
+  position: relative;
+  width: 80%;
+  box-sizing: border-box;
+}
 body{
   background-color: hsl(49, 81%, 77%)
  }
@@ -86,4 +97,43 @@ a:active { /* selected link */
 .button.contact:hover {
   background-color: hsl(209, 87%, 18%);
   color: hsl(201, 51%, 60%);
+}
+.container {
+  padding: 0 15px;
+}
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+#work .row { padding-bottom: 25px; border-bottom: 1px solid hsl(201, 51%, 60%) ; }
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+.center {
+  text-align: center;
+}
+
+.logo {
+  max-width: 250px;
+}
+nav > ul > li {
+  display: inline-block;
+}
+#hero {
+  background-color:hsl(49, 81%, 77%);
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+#hero h1 {
+  margin: 0;
+  padding: 0.67em 0;
+}
+main {
+  padding-top: 133px;
+}
+
+footer {background-color: hsl(201, 51%, 60%)
+padding: 10px;
+margin: 10px;
+text-align: center;
 }
