@@ -2,30 +2,10 @@
 Colors used:
 Primary Color (yellow): hsl(49, 81%, 77%);
 Secondary Color (light blue): hsl(201, 51%, 60%);
+Accent color (dark blue) hsl(209, 87%, 18%);
 */
-header
-{background-color: hsl(201, 51%, 60%)
-padding: 10px;
-margin: 10px;
-text-align: center;
-border-bottom: 3px solid hsl(209, 87%, 18%);}
-selector {
-  margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
-  position: relative;
-  width: 80%;
-  box-sizing: border-box;
-}
-body{
-  background-color: hsl(49, 81%, 77%)
- }
-head{
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  color: hsl(209, 87%, 18%);
-}
 body {
+  background-color: hsl(49, 81%, 77%)
   font-family: 'Comfortaa', cursive;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
@@ -67,12 +47,17 @@ a:focus {
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 a:visited { /* visited link */
-  color: hslhsl(209, 87%, 18%);
+  color: hsl(209, 87%, 18%);
 }
 a:active { /* selected link */
   color:hsl(209, 87%, 18%) ;
 }
-
+header
+{background-color: hsl(201, 51%, 60%);
+padding: 10px;
+margin: 10px;
+text-align: center;
+border-bottom: 3px solid hsl(209, 87%, 18%);}
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: hsl(201, 51%, 60%);
@@ -90,9 +75,9 @@ a:active { /* selected link */
 }
 .button.contact {
   background-color: transparent;
-  color: #hsl(201, 51%, 60%);
+  color: hsl(201, 51%, 60%);
   text-transform: uppercase;
-  border: 2px solid #hsl(201, 51%, 60%);
+  border: 2px solid hsl(201, 51%, 60%);
 }
 .button.contact:hover {
   background-color: hsl(209, 87%, 18%);
@@ -106,7 +91,7 @@ a:active { /* selected link */
 }
 #work .row { padding-bottom: 25px; border-bottom: 1px solid hsl(201, 51%, 60%) ; }
 #hero h1 {
-  text-align: right align; /* Centers text */
+  text-align: right;
 }
 .center {
   text-align: center;
@@ -132,7 +117,7 @@ main {
   padding-top: 133px;
 }
 
-footer {background-color: hsl(201, 51%, 60%)
+footer {background-color: hsl(201, 51%, 60%);
 padding: 10px;
 margin: 10px;
 text-align: center;
