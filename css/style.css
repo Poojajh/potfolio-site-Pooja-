@@ -5,7 +5,7 @@ Secondary Color (light blue): hsl(201, 51%, 60%);
 Accent color (dark blue) hsl(209, 87%, 18%);
 */
 body {
-  background-color: hsl(49, 81%, 77%)
+  background-color: hsl(49, 81%, 77%);
   font-family: 'Comfortaa', cursive;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
