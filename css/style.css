@@ -4,9 +4,12 @@ Primary Color (yellow): hsl(49, 81%, 77%);
 Secondary Color (light blue): hsl(201, 51%, 60%);
 Accent color (dark blue) hsl(209, 87%, 18%);
 */
+*{
+  box-sizing: border-box;
+}
 body {
   background-color: hsl(49, 81%, 77%);
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa', sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
@@ -31,10 +34,10 @@ h3 {
 }
 h4 {
   font-size: 1.55em;
-  font-weight: 400;
+  font-weight: 180;
 }
 img {
-  width 100%, max-width 100%, height: auto;
+  width: 100%;
 }
 
 a {
@@ -52,12 +55,6 @@ a:visited { /* visited link */
 a:active { /* selected link */
   color:hsl(209, 87%, 18%) ;
 }
-header
-{background-color: hsl(201, 51%, 60%);
-padding: 10px;
-margin: 10px;
-text-align: center;
-border-bottom: 3px solid hsl(209, 87%, 18%);}
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: hsl(201, 51%, 60%);
@@ -74,7 +71,7 @@ border-bottom: 3px solid hsl(209, 87%, 18%);}
   text-decoration: none;
 }
 .button.contact {
-  background-color: transparent;
+  background-color: hsl(209, 87%, 18%);
   color: hsl(201, 51%, 60%);
   text-transform: uppercase;
   border: 2px solid hsl(201, 51%, 60%);
@@ -88,6 +85,20 @@ border-bottom: 3px solid hsl(209, 87%, 18%);}
 }
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+header
+{background-color: hsl(201, 51%, 60%);
+padding: 10px;
+margin: 10px;
+text-align: center;
+border-bottom: 3px solid hsl(209, 87%, 18%);}
+header a {
+  color: hsl(209, 87%, 18%);
+  padding: 10px;
+}
+header ul{
+  margin-left: 0;
+  padding-left: 0;
 }
 #work .row { padding-bottom: 25px; border-bottom: 1px solid hsl(201, 51%, 60%) ; }
 #hero h1 {
@@ -105,6 +116,7 @@ display: block;
 }
 nav > ul > li {
   display: inline-block;
+  text-align: center;
 }
 #hero {
   background-color:hsl(49, 81%, 77%);
@@ -124,6 +136,10 @@ footer {background-color: hsl(201, 51%, 60%);
 padding: 10px;
 margin: 10px;
 text-align: center;
+}
+footer a {
+  display: inline-block;
+  width: 50px;
 }
 .container {
   max-width: 1200px;
@@ -151,6 +167,9 @@ text-align: center;
 }
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
+}
+.berlin-illustration{
+  width: 100%;
 }
 /* ==============================
 Medium devices (640px and larger)
