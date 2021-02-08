@@ -91,7 +91,7 @@ border-bottom: 3px solid hsl(209, 87%, 18%);}
 }
 #work .row { padding-bottom: 25px; border-bottom: 1px solid hsl(201, 51%, 60%) ; }
 #hero h1 {
-  text-align: right;
+  text-align: center;
 }
 #hero span {
 display: block;
