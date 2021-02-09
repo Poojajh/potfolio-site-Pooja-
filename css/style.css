@@ -123,6 +123,7 @@ nav > ul > li {
   padding: 20px 0;
   display: inline-block;
   width: 100%;
+  text-align: center;
 }
 #hero h1 {
   margin: 0;
@@ -137,7 +138,13 @@ padding: 10px;
 margin: 10px;
 text-align: center;
 }
-footer a {
+footer.container{
+  clear: both;
+}
+.social{
+  padding: 20px 0;
+}
+social a {
   display: inline-block;
   width: 50px;
 }
@@ -171,6 +178,7 @@ footer a {
 .berlin-illustration{
   width: 100%;
 }
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -222,6 +230,7 @@ Medium devices (640px and larger)
       clear: both;
       display: table;
     }
+  }
     /* ==============================
 Large devices (1024px or larger)
 ================================= */
