@@ -77,7 +77,8 @@ a:active { /* selected link */
   border: 2px solid hsl(201, 51%, 60%);
 }
 .button.contact:hover {
-  background-color: hsl(209, 87%, 18%);
+  background-color: hsl(209,
+     87%, 18%);
   color: hsl(201, 51%, 60%);
 }
 .container {
@@ -137,6 +138,10 @@ footer {background-color: hsl(201, 51%, 60%);
 padding: 10px;
 margin: 10px;
 text-align: center;
+}
+footer a{
+  display: inline-block;
+  width: 50px;
 }
 footer.container{
   clear: both;
