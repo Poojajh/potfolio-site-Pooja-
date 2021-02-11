@@ -139,17 +139,13 @@ padding: 10px;
 margin: 10px;
 text-align: center;
 }
-footer a{
-  display: inline-block;
-  width: 50px;
-}
 footer.container{
   clear: both;
 }
 .social{
   padding: 20px 0;
 }
-social a {
+.social a {
   display: inline-block;
   width: 50px;
 }
@@ -230,6 +226,9 @@ Medium devices (640px and larger)
     .col-md-6 {
       width: 50%;
     }
+    .col-md-12{
+      width: 100%;
+    }
     .row::after {
       content: "";
       clear: both;
@@ -274,6 +273,9 @@ Large devices (1024px or larger)
 
     .col-lg-7 {
       width: 58.33%;
+    }
+    .col-lg-12{
+      width: 100%;
     }
   }
 
