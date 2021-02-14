@@ -104,7 +104,7 @@ header ul{
   display: none;
 }
 .navtoggle li:last-child {
-  display: none;
+  display: block;
 }
 .navtoggle, .navtoggle.responsive {
   position: relative;
@@ -209,7 +209,10 @@ Medium devices (640px and larger)
     padding: 20px 0 13px;
   }
   .logo {
-   min-width: 641px;
+   min-width: 201px;
+  }
+  nav {
+    float: right;
   }
   nav > ul > li {
     width: auto;
@@ -217,11 +220,13 @@ Medium devices (640px and larger)
     margin-top: 4px;
       display: inline-block;
       text-align: center;
-      min-width: 641px;
         margin: 1em 0;
     }
     .navtoggle li:not(:last-child) {
   display: inline-block;
+}
+.navtoggle li:last-child {
+  display: none;
 }
   .title {
       width: auto;
@@ -269,21 +274,6 @@ Large devices (1024px or larger)
     text-align: unset;
     padding: 20px 0 13px;
   }
-  .logo {
-   min-width: 641px;
-  }
-  nav > ul > li {
-    width: auto;
-    float: right;
-    margin-top: 4px;
-      display: inline-block;
-      text-align: center;
-      min-width: 641px;
-        margin: 1em 0;
-    }
-    .navtoggle li:not(:last-child) {
-  display: inline-block;
-}
   .container {
     max-width: 1920px;
     margin: 0 auto;
