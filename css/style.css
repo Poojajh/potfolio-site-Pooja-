@@ -34,7 +34,7 @@ h3 {
 }
 h4 {
   font-size: 1.55em;
-  font-weight: 180;
+  font-weight: 400;
 }
 img {
   width: 100%;
@@ -310,4 +310,3 @@ Large devices (1024px or larger)
   Extra-large devices (1920px or larger)
   ================================
   @media only screen and (min-width: 1920px) {} */
-=============================
