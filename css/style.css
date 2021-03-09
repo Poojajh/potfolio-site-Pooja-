@@ -3,6 +3,7 @@ Colors used:
 Primary Color (yellow): hsl(49, 81%, 77%) (53, 100%, 84%);
 Secondary Color (light blue): hsl(201, 51%, 60%);
 Accent color (dark blue) hsl(209, 87%, 18%);
+orange (19, 86%, 69%);
 */
 *{
   box-sizing: border-box;
@@ -123,7 +124,7 @@ header ul{
 main {
   padding-top: 15px;
 }
-#work .row { padding-bottom: 17px; border-bottom: 1px solid hsl(201, 51%, 60%) ; }
+#work .row { padding-bottom: 17px; border-bottom: 1px solid hsl(19, 86%, 69%) ; }
 #hero h1 {
   text-align: center;
 }
