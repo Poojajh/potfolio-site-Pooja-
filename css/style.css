@@ -122,9 +122,9 @@ header ul{
 }
 
 main {
-  padding-top: 20px;
+  padding-top: 18px;
 }
-#work .row { padding-bottom: 25px; border-bottom: 1px solid hsl(201, 51%, 60%) ; }
+#work .row { padding-bottom: 17px; border-bottom: 1px solid hsl(201, 51%, 60%) ; }
 #hero h1 {
   text-align: center;
 }
@@ -141,7 +141,7 @@ display: block;
 
 #hero {
   background-color:hsl(53, 100%, 84%);
-  padding: 20px 0;
+  padding: 18px 0;
   display: inline-block;
   width: 100%;
   text-align: center;
