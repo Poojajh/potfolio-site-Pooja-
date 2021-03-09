@@ -8,12 +8,12 @@ Accent color (dark blue) hsl(209, 87%, 18%);
   box-sizing: border-box;
 }
 body {
-  background-color: hsl(53, 100%, 84%);
+  background-color: hsl(187, 49%, 80%);
   font-family: 'Lato', sans-serif;
   font-size: 18px; /* Sets the font size to 18px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  color: hsl(209, 87%, 18%);
+  color: hsl(228, 38%, 31%);
 }
 h1, h2, h3, h4 {
   line-height: 1.4;
@@ -41,16 +41,16 @@ img {
 }
 
 a {
-  color:  hsl(201, 51%, 60%);
+  color:  hsl(228, 38%, 31%);
   text-decoration: none; /* No underlining */
 }
 a:hover,
 a:focus {
-  color:  hsl(209, 87%, 18%);
+  color:  hsl(228, 38%, 31%);
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 a:visited { /* visited link */
-  color: hsl(209, 87%, 18%);
+  color: hsl(228, 38%, 31%);
 }
 a:active { /* selected link */
   color:hsl(209, 87%, 18%) ;
@@ -58,7 +58,7 @@ a:active { /* selected link */
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: hsl(201, 51%, 60%);
-  color:hsl(209, 87%, 18%); /* needed to override the default link color */
+  color:hsl(228, 38%, 31%); /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
@@ -71,14 +71,13 @@ a:active { /* selected link */
   text-decoration: none;
 }
 .button.contact {
-  background-color: hsl(209, 87%, 18%);
+  background-color: hsl(228, 38%, 31%);
   color: hsl(201, 51%, 60%);
   text-transform: uppercase;
-  border: 2px solid hsl(201, 51%, 60%);
+  border: 2px solid hsl(228, 0%, 0%);
 }
 .button.contact:hover {
-  background-color: hsl(209,
-     87%, 18%);
+  background-color: hsl(228, 38%, 31%);
   color: hsl(201, 51%, 60%);
 }
 .container {
@@ -88,12 +87,12 @@ a:active { /* selected link */
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 header
-{background-color: hsl(201, 51%, 60%);
+{background-color: hsl(47, 91%, 82%);
 padding: 10px;
 margin: 10px;
-border-bottom: 3px solid hsl(209, 87%, 18%);}
+border-bottom: 3px solid hsl(228, 38%, 31%);}
 header a {
-  color: hsl(209, 87%, 18%);
+  color: hsl(228, 38%, 31%);
   padding: 10px;
 }
 header ul{
