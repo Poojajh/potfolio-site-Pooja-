@@ -1,6 +1,6 @@
 /*
 Colors used:
-Primary Color (yellow): hsl(49, 81%, 77%) (53, 100%, 84%);
+Primary Color (yellow): hsl(49, 81%, 77%) (53, 100%, 84%)(53, 0%, 100%);
 Secondary Color (light blue): hsl(201, 51%, 60%);
 Accent color (dark blue) hsl(209, 87%, 18%);
 */
@@ -8,7 +8,7 @@ Accent color (dark blue) hsl(209, 87%, 18%);
   box-sizing: border-box;
 }
 body {
-  background-color: hsl(53, 100%, 84%);
+  background-color: hsl(53, 0%, 100%);
   font-family: 'Comfortaa', sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
@@ -140,7 +140,7 @@ display: block;
 }
 
 #hero {
-  background-color:hsl(53, 100%, 84%);
+  background-color:hsl(53, 0%, 100%);
   padding: 20px 0;
   display: inline-block;
   width: 100%;
