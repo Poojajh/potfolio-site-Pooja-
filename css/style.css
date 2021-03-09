@@ -121,7 +121,7 @@ header ul{
 }
 
 main {
-  padding-top: 18px;
+  padding-top: 15px;
 }
 #work .row { padding-bottom: 17px; border-bottom: 1px solid hsl(201, 51%, 60%) ; }
 #hero h1 {
@@ -150,7 +150,7 @@ display: block;
   padding: 0.67em 0;
 }
 main {
-  padding-top: 133px;
+  padding-top: 20px;
 }
 
 footer {background-color: hsl(201, 51%, 60%);
