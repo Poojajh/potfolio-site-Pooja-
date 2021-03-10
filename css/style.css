@@ -12,7 +12,7 @@ body {
   background-color: hsl(58, 66%, 97%);
   font-family: 'Lato', sans-serif;
   font-size: 16px; /* Sets the font size to 18px */
-  font-weight: 200;; /* Sets the font weight to 300 */
+  font-weight: 300;; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: hsl(228, 38%, 31%);
 }
@@ -96,8 +96,8 @@ header a {
   color: hsl(228, 38%, 31%);
   padding: 10px;
 }
-header .active a{
-  color: hsl(32, 80%, 27%);
+header .active  a{
+  color:hsl(32, 80%, 27%);
 }
 header ul{
   margin-left: 0;
