@@ -136,7 +136,7 @@ display: block;
 }
 
 .logo {
- max-width: 150px;
+ max-width: 250px;
 }
 #hero {
   background-color:hsl(187, 49%, 80%);
@@ -208,7 +208,7 @@ Medium devices (640px and larger)
     padding: 20px 0 13px;
   }
   .logo {
-   min-width: 201px;
+   min-width: 290px;
   }
   nav {
     float: right;
