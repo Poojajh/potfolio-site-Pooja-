@@ -9,7 +9,7 @@ orange (19, 86%, 69%);
   box-sizing: border-box;
 }
 body {
-  background-color: hsl(187, 49%, 80%);
+  background-color: hsl(58, 66%, 97%);
   font-family: 'Lato', sans-serif;
   font-size: 18px; /* Sets the font size to 18px */
   font-weight: 300; /* Sets the font weight to 300 */
@@ -88,7 +88,7 @@ a:active { /* selected link */
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 header
-{background-color: hsl(47, 91%, 82%);
+{background-color: hsl(58, 66%, 97%);
 padding: 10px;
 margin: 10px;
 border-bottom: 3px solid hsl(228, 38%, 31%);}
@@ -142,7 +142,7 @@ display: block;
  max-width: 250px;
 }
 #hero {
-  background-color:hsl(187, 49%, 80%);
+  background-color:hsl(58, 66%, 97%);
   padding: 18px 0;
   display: inline-block;
   width: 100%;
