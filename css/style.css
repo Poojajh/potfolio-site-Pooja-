@@ -218,7 +218,7 @@ Medium devices (640px and larger)
   }
   nav > ul > li {
     width: auto;
-    float: left;
+    float: right;
     margin-top: 4px;
       display: inline-block;
       text-align: center;
