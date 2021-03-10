@@ -96,7 +96,7 @@ header a {
   color: hsl(228, 38%, 31%);
   padding: 10px;
 }
-header .active a{
+header.active{
   color: hsl(32, 80%, 27%)
 }
 header ul{
