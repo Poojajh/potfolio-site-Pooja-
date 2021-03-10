@@ -73,9 +73,9 @@ a:active { /* selected link */
 }
 .button.contact {
   background-color: hsl(209, 87%, 18%);
-  color: hsl(201, 51%, 60%);
+  color: hsl(49, 81%, 77%);
   text-transform: uppercase;
-  border: 1px solid hsl(49, 81%, 77%);
+  border: 1px solid hsl(209, 87%, 18%);
 }
 .button.contact:hover {
   background-color: hsl(228, 38%, 31%);
