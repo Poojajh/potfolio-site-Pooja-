@@ -222,7 +222,7 @@ Medium devices (640px and larger)
     margin-top: 4px;
       display: inline-block;
       text-align: center;
-        margin: 1em 0;
+        margin: 2em 0;
     }
     .navtoggle li:not(:last-child) {
   display: inline-block;
