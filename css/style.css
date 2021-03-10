@@ -72,7 +72,7 @@ a:active { /* selected link */
   text-decoration: none;
 }
 .button.contact {
-  background-color: hsl(49, 81%, 77%);
+  background-color: hsl(209, 87%, 18%);
   color: hsl(201, 51%, 60%);
   text-transform: uppercase;
   border: 1px solid hsl(49, 81%, 77%);
