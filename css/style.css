@@ -214,11 +214,11 @@ Medium devices (640px and larger)
    min-width: 290px;
   }
   nav {
-    float: left;
+    float: right;
   }
   nav > ul > li {
     width: auto;
-    float: right;
+    float: left;
     margin-top: 4px;
       display: inline-block;
       text-align: center;
